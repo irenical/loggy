@@ -1,7 +1,7 @@
 [![][maven img]][maven]
 [![][travis img]][travis]
 
-A ready-to-use LifeCycle that sets up logging. It assumes you're using SLF4J, Logback, Gelf and Jindy. If this is not the case, you can easily make your own logging configuration bootstrap using this one as a reference (or not).
+A ready-to-use LifeCycle that sets up logging. It assumes you're using SLF4J, Logback, Gelf and Jindy. If this is not the case, you can easily make your own logging configuration bootstrap using this one as a reference (or don't).
 
 ## Usage
 
