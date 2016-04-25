@@ -6,7 +6,7 @@ public class LoggyTest {
   
   @Test
   public void testBoot(){
-    LoggingLifecycle l = new LoggingLifecycle();
+    Loggy l = new Loggy();
     l.start();
   }
 
