@@ -10,7 +10,7 @@
 
   <groupId>org.irenical.loggy</groupId>
   <artifactId>loggy</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
 
   <name>Loggy</name>
   <description>A logging configuration lifecycle</description>
@@ -72,17 +72,16 @@
       <scope>test</scope>
     </dependency>
     <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.1.7</version>
+    </dependency>
+    <dependency>
       <groupId>org.irenical.jindy</groupId>
       <artifactId>jindy-commons-impl</artifactId>
       <version>1.4.2</version>
       <scope>test</scope>
     </dependency>
-    <!-- <dependency> -->
-    <!-- <groupId>ch.qos.logback</groupId> -->
-    <!-- <artifactId>logback-classic</artifactId> -->
-    <!-- <version>1.1.7</version> -->
-    <!-- <scope>test</scope> -->
-    <!-- </dependency> -->
   </dependencies>
 
 </project>
