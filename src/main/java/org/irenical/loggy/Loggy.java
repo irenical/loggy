@@ -3,10 +3,7 @@ package org.irenical.loggy;
 import org.irenical.lifecycle.LifeCycle;
 import org.irenical.slf4j.GelfLoggerConfigurator;
 import org.slf4j.LoggerFactory;
-import org.slf4j.bridge.SLF4JBridgeHandler;
 
-import ch.qos.logback.classic.Level;
-import ch.qos.logback.classic.Logger;
 import ch.qos.logback.classic.LoggerContext;
 
 public class Loggy implements LifeCycle {
