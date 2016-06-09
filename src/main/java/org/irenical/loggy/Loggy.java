@@ -16,14 +16,6 @@ public class Loggy implements LifeCycle {
   @Override
   public void start() {
     if (!started) {
-      SLF4JBridgeHandler.removeHandlersForRootLogger();
-      SLF4JBridgeHandler.install();
-      java.util.logging.Logger.getGlobal().setLevel(java.util.logging.Level.ALL);
-
-      LoggerContext loggerContext = (LoggerContext) LoggerFactory.getILoggerFactory();
-      Logger rootLogger = loggerContext.getLogger(Logger.ROOT_LOGGER_NAME);
-      rootLogger.setLevel(Level.INFO);
-      
       GelfLoggerConfigurator configurator = new GelfLoggerConfigurator();
       LoggerContext context = (LoggerContext) LoggerFactory.getILoggerFactory();
       configurator.setContext(context);
